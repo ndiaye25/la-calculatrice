@@ -1,0 +1,55 @@
+<!DOCTYPE html>s
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Calculatrice JS </title>
+        <link rel="stylesheet" href="v.main.css">
+        <script src="script.js" async></script>
+    </head>
+ 
+    <body>
+        <div class="main">
+            <div class="calcBox">
+                <input readonly id="valeur" style="text-align:right;" value="0" />
+                <ul>
+                    <li>
+                        <button class="nbr nbr-button">1</button>
+                        <button class="nbr nbr-button">2</button>
+                        <button class="nbr nbr-button">3</button>
+                        <button class="sign" data-sign="+">+</button>
+                        <span class="clearfix"></span>
+                    </li>
+                    <li>
+                        <button class="nbr nbr-button">4</button>
+                        <button class="nbr nbr-button">5</button>
+                        <button class="nbr nbr-button">6</button>
+                        <button class="sign" data-sign="-">-</button>
+                        <span class="clearfix"></span>
+                    </li>
+                        <button class="nbr nbr-button">7</button>
+                        <button class="nbr nbr-button">8</button>
+                        <button class="nbr nbr-button">9</button>
+                        <button class="sign" data-sign="*">x</button>
+                        <span class="clearfix"></span>
+                    </li>
+                    <li>
+                        <button class="nbr">0</button>
+                        <button id="dot" class="nbr2">.</button>
+                        <button class="sign" data-sign="/">/</button>
+                        <span class="clearfix"></span>
+                    </li>
+                    <li>
+                        <button id="negatif" class="nbr">+/-</button>
+                        <button id="reset" class="nbr">C</button>
+                        <button id="result" class="result">=</button>
+                        <span class="clearfix"></span>
+                    </li>
+                </ul>
+                <ul id="historique">
+                    <li id="noHistory">Pas d'historique</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
